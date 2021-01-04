@@ -154,7 +154,7 @@ p {
   justify-content: center;
   gap: 30px;
   max-width: 700px;
-  margin: auto;
+  margin: auto 0;
 }
 .reverse-text-media-dark-v1-content h4 {
   font-size: 28px;
@@ -208,6 +208,7 @@ p {
 
   .reverse-text-media-dark-v1-img {
     height: 381px;
+    width: 50%;
   }
   .reverse-text-media-dark-v1-img img {
     height: 100%;
@@ -219,6 +220,7 @@ p {
     padding: 50px 100px 50px 100px;
     min-width: 496px;
     gap: 30px;
+    width: 50%;
   }
   .reverse-text-media-dark-v1-content h4 {
     font-size: 28px;
@@ -229,7 +231,7 @@ p {
     min-height: 449px;
   }
   .reverse-text-media-dark-v1-content {
-    padding: 50px 100px 50px 100px;
+    padding: 50px 80px 50px 80px;
     justify-content: center;
   }
 
@@ -257,7 +259,6 @@ p {
     padding: 50px 100px 50px 100px;
     max-width: 841px;
     min-width: 590px;
-    width: 100%;
     justify-content: flex-end;
     gap: 20px;
   }
@@ -269,25 +270,16 @@ p {
     max-width: 449px;
   }
 }
-@media (min-width: 1600px) {
+@media (min-width: 1300px) {
   .reverse-text-media-dark-v1-content {
-    padding: 50px 80px 50px 120px;
-    max-height: 400px;
-    max-width: 900px;
-    gap: 30px;
-  }
-  .reverse-text-media-dark-v1-img {
-    min-width: 839px;
+    max-height: unset;
   }
   .reverse-text-media-dark-v1 {
-    min-height: 692px;
+    min-height: unset;
+    height: 80vh;
   }
-
   .reverse-text-media-dark-v1-img {
-    height: 692px;
-  }
-  .reverse-text-media-dark-v1-content p {
-    max-width: 449px;
+    height: 80vh;
   }
 }
 
@@ -324,7 +316,7 @@ p {
   justify-content: center;
   gap: 30px;
   max-width: 700px;
-  margin: auto;
+  margin: auto 0;
 }
 .reverse-text-media-dark-v2-content h4 {
   font-size: 28px;
@@ -372,6 +364,7 @@ p {
 
   .reverse-text-media-dark-v2-img {
     height: 371px;
+    width: 50%;
   }
   .reverse-text-media-dark-v2-img img {
     height: 100%;
@@ -383,6 +376,7 @@ p {
     padding: 50px 83px 50px 27px;
     min-width: 496px;
     gap: 30px;
+    width: 50%;
   }
   .reverse-text-media-dark-v2-content h4 {
     font-size: 28px;
@@ -393,7 +387,6 @@ p {
     min-height: 449px;
   }
   .reverse-text-media-dark-v2-content {
-    padding: 50px 100px 50px 100px;
     justify-content: center;
   }
 
@@ -420,9 +413,7 @@ p {
   .reverse-text-media-dark-v2-content {
     min-height: 300px;
     padding: 50px 83px 50px 5%;
-    max-width: 841px;
     min-width: 600px;
-    width: 100%;
     justify-content: flex-end;
     gap: 20px;
   }
@@ -434,25 +425,18 @@ p {
     max-width: 449px;
   }
 }
-@media (min-width: 1600px) {
+
+@media (min-width: 1300px) {
   .reverse-text-media-dark-v2-content {
-    padding: 50px 80px 50px 270px;
-    min-width: 841px;
-    max-height: 400px;
-    max-width: 900px;
-    gap: 30px;
+    max-height: unset;
   }
-  .reverse-text-media-dark-v2-img {
-    min-width: 839px;
-  }
+
   .reverse-text-media-dark-v2 {
-    min-height: 692px;
+    min-height: unset;
+    height: 80vh;
   }
 
   .reverse-text-media-dark-v2-img {
-    height: 692px;
-  }
-  .reverse-text-media-dark-v2-content p {
-    max-width: 449px;
+    height: 80vh;
   }
 }
