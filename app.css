@@ -171,11 +171,16 @@ p {
 .reverse-text-media-dark-v1-content button {
   border: 1px solid #e1e1e1;
   background: transparent;
-  width: 137px;
+  padding: 5px 20px;
+  width: fit-content;
   height: 50px;
   font-size: 11px;
   outline: none;
   line-height: 12px;
+  box-shadow: none !important;
+}
+.reverse-text-media-dark-v1-content button:hover {
+  background: transparent;
 }
 
 .reverse-text-media-dark-v1-content button a {
@@ -340,11 +345,15 @@ p {
 .reverse-text-media-dark-v2-content button {
   border: 1px solid #e1e1e1;
   background: transparent;
-  width: 137px;
+  padding: 5px 15px;
+  width: fit-content;
   height: 40px;
   font-size: 11px;
   outline: none;
   line-height: 12px;
+}
+.reverse-text-media-dark-v3-content button:hover {
+  background: transparent;
 }
 
 .reverse-text-media-dark-v2-content button a {
@@ -531,6 +540,28 @@ p {
   line-height: 22px;
   color: #e1e1e1;
   max-width: 386px;
+}
+.reverse-text-media-dark-v3-content button {
+  border: 1px solid #e1e1e1;
+  background: transparent;
+  padding: 5px 20px;
+  width: fit-content;
+  height: 50px;
+  font-size: 11px;
+  outline: none;
+  line-height: 12px;
+  box-shadow: none !important;
+}
+.reverse-text-media-dark-v3-content button:hover {
+  background: transparent;
+}
+
+.reverse-text-media-dark-v3-content button a {
+  text-decoration: none;
+  color: #e1e1e1;
+  font-family: "aktiv-grotesk", sans-serif;
+  font-weight: 700;
+  letter-spacing: 1px;
 }
 .reverse-text-media-dark-v3-line {
   height: 1px;
@@ -726,11 +757,16 @@ p {
 .reverse-text-media-dark-v4-content button {
   border: 1px solid #e1e1e1;
   background: transparent;
-  width: 137px;
+  padding: 5px 15px;
+  width: fit-content;
   height: 40px;
   font-size: 11px;
   outline: none;
   line-height: 12px;
+  box-shadow: none !important;
+}
+.reverse-text-media-dark-v4-content button:hover {
+  background: transparent;
 }
 
 .reverse-text-media-dark-v4-content button a {
