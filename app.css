@@ -354,7 +354,7 @@ p {
   box-shadow: none !important;
 }
 .reverse-text-media-dark-v3-content button:hover {
-  background-color: transparent;
+  background: transparent;
 }
 
 .reverse-text-media-dark-v2-content button a {
